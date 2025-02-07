@@ -1,0 +1,22 @@
+{
+  "name": "magefast-dragonfly/module-order-grid-phone",
+  "minimum-stability": "dev",
+  "description": "Magento extension - Add order grid column Telephone",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Dragonfly\\OrderGridPhone\\": ""
+    }
+  }
+}

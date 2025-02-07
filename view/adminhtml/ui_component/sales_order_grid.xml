@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_columns">
+        <column name="telephone" class="Dragonfly\OrderGridPhone\Ui\Component\Listing\Column\Telephone">
+            <settings>
+                <label translate="true">Phone Number</label>
+                <bodyTmpl>ui/grid/cells/html</bodyTmpl>
+                <sortable>true</sortable>
+            </settings>
+        </column>
+        <column name="comment" class="Dragonfly\OrderGridPhone\Ui\Component\Listing\Column\Comment">
+            <settings>
+                <label translate="true">Comment</label>
+                <bodyTmpl>ui/grid/cells/html</bodyTmpl>
+                <sortable>false</sortable>
+                <sorting>asc</sorting>
+            </settings>
+        </column>
+    </columns>
+</listing>
